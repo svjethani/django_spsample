@@ -1,0 +1,4 @@
+django
+======
+
+Sample django apps 
