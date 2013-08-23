@@ -23,7 +23,8 @@ To use the app follow these steps
     + Replace SECRET_KEY with the appropriate key for your project
     + TEMPLATE_DIRS may need absolute path of the template directory
     + Update STORMPATH_ID, STORMPATH_SECRET, STORMPATH_APPLICATION
-* Run the app using django-admin.py django_spsample
+* Create database tables `python manage.py syncdb`
+* Run the app `python manage.py runserver`
 * Create accounts in Stormpath in the Application specified in settings.py
 * Point your browser at http://localhost:8000 and login using an account created in Stormpath
 
